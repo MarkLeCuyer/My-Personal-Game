@@ -42,6 +42,7 @@
     {"name":"sLazer","order":12,"path":"sprites/sLazer/sLazer.yy",},
     {"name":"sPlatformer","order":1,"path":"sprites/sPlatformer/sPlatformer.yy",},
     {"name":"sPlayerA","order":5,"path":"sprites/sPlayerA/sPlayerA.yy",},
+    {"name":"sPlayerC","order":21,"path":"sprites/sPlayerC/sPlayerC.yy",},
     {"name":"sPlayerR","order":4,"path":"sprites/sPlayerR/sPlayerR.yy",},
     {"name":"Sprite14","order":18,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"Sprite17","order":17,"path":"sprites/Sprite17/Sprite17.yy",},

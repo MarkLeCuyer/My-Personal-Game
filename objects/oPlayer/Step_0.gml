@@ -15,6 +15,12 @@ if (place_meeting(x,y+1,oPlatform)) && (key_jump)
 	vsp = -7;
 }
 
+if (key_jump) && (place_meeting(x+1,y+1,oPlatform) || place_meeting(x-1,y-1,oPlatform))
+{
+	vsp = -jumpspeed;
+
+}
+
 // Horizontal collision
 if (place_meeting(x+hsp,y,oPlatform))
 {
@@ -50,14 +56,22 @@ else
 	if (hsp == 0) 
 	{
 		sprite_index = sPlayer; 
+		with(instance_nearest(x, y, oBlaster)){
+			sprite_index = sBlaster
+		}
 	}
 	else 
 	{
 		sprite_index = sPlayerR; 
+		with(instance_nearest(x, y, oBlaster)){
+			sprite_index = sBlaster
+		}
 	}
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+// Wall Jump
 
 
 

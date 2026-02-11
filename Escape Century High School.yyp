@@ -65,6 +65,7 @@
     {"id":{"name":"sPlatformer","path":"sprites/sPlatformer/sPlatformer.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},},
+    {"id":{"name":"sPlayerC","path":"sprites/sPlayerC/sPlayerC.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
