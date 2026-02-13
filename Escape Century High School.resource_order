@@ -33,7 +33,7 @@
     {"name":"snFoot1","order":3,"path":"sounds/snFoot1/snFoot1.yy",},
     {"name":"snShooting","order":1,"path":"sounds/snShooting/snShooting.yy",},
     {"name":"MenuBackground","order":19,"path":"sprites/MenuBackground/MenuBackground.yy",},
-    {"name":"sBlaster","order":11,"path":"sprites/sBlaster/sBlaster.yy",},
+    {"name":"sBlaster","order":22,"path":"sprites/sBlaster/sBlaster.yy",},
     {"name":"sEnemyb","order":3,"path":"sprites/sEnemyb/sEnemyb.yy",},
     {"name":"sEnemyg","order":2,"path":"sprites/sEnemyg/sEnemyg.yy",},
     {"name":"sEnemygA","order":10,"path":"sprites/sEnemygA/sEnemygA.yy",},

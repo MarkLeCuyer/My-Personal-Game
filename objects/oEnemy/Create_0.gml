@@ -4,6 +4,6 @@ grv = 0.3;
 walksp = 3;
 hsp = walksp;
 
-hp = 4; 
+hp = 8; 
 flash = 0; 
 hitfrom = 0;

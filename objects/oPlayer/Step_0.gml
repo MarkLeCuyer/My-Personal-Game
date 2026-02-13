@@ -15,6 +15,7 @@ if (place_meeting(x,y+1,oPlatform)) && (key_jump)
 	vsp = -7;
 }
 
+// Wall Jump
 if (key_jump) && (place_meeting(x+1,y+1,oPlatform) || place_meeting(x-1,y-1,oPlatform))
 {
 	vsp = -jumpspeed;
@@ -69,9 +70,13 @@ else
 	}
 }
 
-if (hsp != 0) image_xscale = sign(hsp);
+if (hsp != 0) {
+	image_xscale = sign(hsp);
+	with(instance_nearest(x, y, oBlaster)){
+		image_xscale = sign(hsp);
+	}
+}
 
-// Wall Jump
 
 
 
