@@ -10,7 +10,7 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,oPlatform)) && (key_jump)
+if (place_meeting(x,y+1,my_tilemap)) && (key_jump)
 {
 	vsp = -7;
 }
@@ -23,9 +23,9 @@ if (key_jump) && (place_meeting(x+1,y+1,oPlatform) || place_meeting(x-1,y-1,oPla
 }
 
 // Horizontal collision
-if (place_meeting(x+hsp,y,oPlatform))
+if (place_meeting(x+hsp,y,my_tilemap))
 {
-	while (!place_meeting(x+sign(hsp),y,oPlatform))
+	while (!place_meeting(x+sign(hsp),y,my_tilemap))
 	{
 		x = x + sign(hsp);
 	}
@@ -34,9 +34,9 @@ if (place_meeting(x+hsp,y,oPlatform))
 x = x + hsp; 
 
 // Vertical collision
-if (place_meeting(x,y+vsp,oPlatform))
+if (place_meeting(x,y+vsp,my_tilemap))
 {
-	while (!place_meeting(x,y+sign(vsp),oPlatform))
+	while (!place_meeting(x,y+sign(vsp),my_tilemap))
 	{
 		y = y + sign(vsp);
 	}
@@ -45,7 +45,7 @@ if (place_meeting(x,y+vsp,oPlatform))
 y = y + vsp; 
 
 // Animation
-if (!place_meeting(x,y+1,oPlatform))
+if (!place_meeting(x,y+1,my_tilemap))
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
