@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"sBackg_ground_grass",
+    "path":"sprites/sBackg_ground_grass/sBackg_ground_grass.yy",
   },
   "spriteMaskId":null,
   "visible":true,

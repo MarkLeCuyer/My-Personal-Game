@@ -11,9 +11,9 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 	firingdelay = 20;
 	ScreenShake(2,5);
 	audio_play_sound(snShooting,5,false);
-	with (instance_create_layer(x,y+32,"Lazer",oLazer))
+	with (instance_create_layer(x+5,y+15,"Lazer",oLazer))
 	{
-		speed = 20;
+		speed = 10;
 		direction = other.image_xscale + random_range(-3,3);
 		image_angle = direction;
 		

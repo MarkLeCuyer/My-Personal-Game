@@ -2,8 +2,17 @@
   "$GMTileSet":"v1",
   "%Name":"Ground",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    {"$GMAutoTileSet":"","%Name":"Grass","closed_edge":false,"name":"Grass","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        1,2,3,4,5,6,7,8,15,16,17,18,19,20,21,22,30,31,32,33,34,35,36,37,45,46,47,48,49,50,51,52,60,61,62,63,
+        64,65,66,67,75,76,77,78,79,80,81,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"Ice","closed_edge":false,"name":"Ice","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        91,92,93,94,95,96,97,98,105,106,107,108,109,110,111,112,120,121,122,123,124,125,126,127,135,136,137,
+        138,139,140,141,142,150,151,152,153,154,155,156,157,165,166,167,168,169,170,171,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"MontenRock","closed_edge":false,"name":"MontenRock","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        181,182,183,184,185,186,187,188,195,196,197,198,199,200,201,202,210,211,212,213,214,215,216,217,225,
+        226,227,228,229,230,231,232,240,241,242,243,244,245,246,247,255,256,257,258,259,260,261,
       ],},
   ],
   "macroPageTiles":{
@@ -12,7 +21,7 @@
     "TileSerialiseData":[],
   },
   "name":"Ground",
-  "out_columns":7,
+  "out_columns":16,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -38,5 +47,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":49,
+  "tile_count":270,
 }

@@ -26,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sPlatformer",
     "path":"sprites/sPlatformer/sPlatformer.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
