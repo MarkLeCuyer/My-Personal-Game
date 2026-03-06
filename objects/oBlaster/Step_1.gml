@@ -9,7 +9,6 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 {
 	recoil = 4;
 	firingdelay = 20;
-	ScreenShake(2,5);
 	audio_play_sound(snShooting,5,false);
 	with (instance_create_layer(x+5,y+15,"Lazer",oLazer))
 	{
