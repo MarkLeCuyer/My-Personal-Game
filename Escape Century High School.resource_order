@@ -54,9 +54,7 @@
     {"name":"Sprite8","order":7,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"sStartbutton","order":20,"path":"sprites/sStartbutton/sStartbutton.yy",},
     {"name":"sTitle","order":34,"path":"sprites/sTitle/sTitle.yy",},
-    {"name":"sTrees_1","order":30,"path":"sprites/sTrees_1/sTrees_1.yy",},
-    {"name":"sTrees_2","order":28,"path":"sprites/sTrees_2/sTrees_2.yy",},
-    {"name":"sTrees_3","order":29,"path":"sprites/sTrees_3/sTrees_3.yy",},
-    {"name":"sTrees","order":35,"path":"sprites/sTrees/sTrees.yy",},
+    {"name":"sTree_1","order":36,"path":"sprites/sTree_1/sTree_1.yy",},
+    {"name":"sTrees_2","order":35,"path":"sprites/sTrees_2/sTrees_2.yy",},
   ],
 }
