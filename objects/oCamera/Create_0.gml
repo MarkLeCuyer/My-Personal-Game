@@ -26,4 +26,6 @@ Trees3 = layer_get_id("bgTrees_3")
 
 
 GrassPlatforms1 = layer_get_id("bgGrass_Platforms_1")
+GrassPlatforms2 = layer_get_id("bgGrass_Platforms_2")
 GrassPlatforms3 = layer_get_id("bgGrass_Platforms_3")
+GrassPlatforms4 = layer_get_id("bgGrass_Platforms_4")
