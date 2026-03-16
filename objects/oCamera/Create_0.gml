@@ -20,12 +20,10 @@ eTrees1 = layer_get_id("sTrees_1")
 eTrees2 = layer_get_id("sTrees_2")
 eTrees3 = layer_get_id("sTrees_3")
 
-Trees1 = layer_get_id("bgTrees_1")
-Trees2 = layer_get_id("bgTrees_2")
-Trees3 = layer_get_id("bgTrees_3")
-
 
 GrassPlatforms1 = layer_get_id("bgGrass_Platforms_1")
 GrassPlatforms2 = layer_get_id("bgGrass_Platforms_2")
 GrassPlatforms3 = layer_get_id("bgGrass_Platforms_3")
 GrassPlatforms4 = layer_get_id("bgGrass_Platforms_4")
+GrassPlatforms5 = layer_get_id("bgGrass_Platforms_5")
+GrassPlatforms6 = layer_get_id("bgGrass_Platforms_6")

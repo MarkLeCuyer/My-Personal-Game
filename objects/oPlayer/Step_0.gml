@@ -10,10 +10,12 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
+//Jumping 
 if (place_meeting(x,y+1,my_tilemap)) && (key_jump)
 {
 	vsp = -7;
 }
+
 
 // Wall Jump
 if (key_jump) && (place_meeting(x+1,y+1,oPlatform) || place_meeting(x-1,y-1,oPlatform))
@@ -21,6 +23,12 @@ if (key_jump) && (place_meeting(x+1,y+1,oPlatform) || place_meeting(x-1,y-1,oPla
 	vsp = -jumpspeed;
 
 }
+
+// Double Jump
+
+
+
+
 
 // Horizontal collision
 if (place_meeting(x+hsp,y,my_tilemap))

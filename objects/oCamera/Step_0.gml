@@ -40,25 +40,15 @@ if (layer_exists(Mountain1))
 	layer_x(Mountain1, x/8);
 }
 
-if (layer_exists(Trees3))
-{
-	layer_x(Trees3, x/4);
-}
 
-if (layer_exists(Trees2))
-{
-	layer_x(Trees2, x/8);
-}
+if (layer_exists(GrassPlatforms6)) {layer_x(GrassPlatforms6, x/2)}
 
-if (layer_exists(Trees1))
-{
-	layer_x(Trees1, x/20);
-}
+if (layer_exists(GrassPlatforms5)) {layer_x(GrassPlatforms5, x/4)}
 
-if (layer_exists(GrassPlatforms4)) {layer_x(GrassPlatforms4, x/2)}
+if (layer_exists(GrassPlatforms4)) {layer_x(GrassPlatforms4, x/6)}
 
-if (layer_exists(GrassPlatforms3)) {layer_x(GrassPlatforms3, x/4)}
+if (layer_exists(GrassPlatforms3)) {layer_x(GrassPlatforms3, x/8)}
 
-if (layer_exists(GrassPlatforms2)) {layer_x(GrassPlatforms2, x/6)}
+if (layer_exists(GrassPlatforms2)) {layer_x(GrassPlatforms2, x/10)}
 
-if (layer_exists(GrassPlatforms1)) {layer_x(GrassPlatforms1, x/12)}
+if (layer_exists(GrassPlatforms1)) {layer_x(GrassPlatforms1, x/16)}
